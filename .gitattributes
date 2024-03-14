@@ -1,0 +1,9 @@
+## ========================================================================================================
+## .gitattributes: A generic .gitattributes file for GitHub repositories.
+## b220829.104016
+## https://github.com/APrettyCoolProgram/my-development-environment
+## Copyright (c) 2021-2022 A Pretty Cool Program (see LICENSE file for more information)
+## ========================================================================================================
+
+## Auto detect text files and perform LF normalization
+* text=auto
