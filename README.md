@@ -1,4 +1,12 @@
-# ABOUT
+<!-- Last updated: 240328 -->
+
+<div align="center">
+
+ ![](./.github/Images/Logos/development-environments-logo-256x256.png)
+
+</div>
+
+# Development environments
 
 This repository details a bunch of stuff about the development environment I use to develop software and stuff.
 
