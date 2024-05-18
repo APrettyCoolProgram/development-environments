@@ -1,6 +1,6 @@
 ; ==============================================================================
-; This AutoHotKey script file is Spectrum Health Systems projects.
-; v1.3+b240307.1302
+; This AutoHotKey script file is A Pretty Cool Program projects.
+; b240518.
 ; ==============================================================================
 
 ;-------------------------------------------------------------------------------
@@ -20,7 +20,7 @@
 ; Ex. "//b230204.1201"
 ^+!b::
 {
-	send "b" FormatTime(A_Now, "yyMMdd.HHss")
+	send FormatTime(A_Now, "yyMMdd.HHss")
 }
 
 ; ALT+CTRL+SHIFT+C
