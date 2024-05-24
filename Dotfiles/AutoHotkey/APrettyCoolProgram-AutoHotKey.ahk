@@ -128,12 +128,13 @@
 ;}
 
 ; ALT+CTRL+SHIFT+P
-; TBD
-; Ex. TBD
-;^+!p::
-;{
-;	// TBD
-;}
+; Inserts a Prototype build.
+; Ex. "//Prototype b230204.1201"
+^+!p::
+{
+	send "Prototype b" FormatTime(A_Now, "yyMMdd")
+}
+
 
 ; ALT+CTRL+SHIFT+Q
 ; TBD
