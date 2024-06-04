@@ -10,23 +10,17 @@ This will detail the setup of Visual Studio Community 2022 v17.9.3 with the foll
 
 Enable these windows/components:
 
-* Solution Explorer ->Enable and pin to left dock
-* Error List - >Enable and pin to bottom dock
-* Output -> Enable and pin to bottom dock
-* Task List -> Enable and pin to bottom dock
-* Toolbox -> Enable and pin to left dock
-* Other Windows > Bookmarks -> Enable and pin to bottom dock
-* Properties Window -> Enable and pin to left dock
+### Left dock
 
-***
+`Solution Explorer` > `Toolbox` > `Properties`
 
-## Docks
+### Right dock
 
-The docks should look like this:
+Empty
 
-* Left: `Solution Explorer` > `Toolbox` > `Properties`
-* Right: no dock
-* Bottom: `Error List` > `Output` > `Task List` > `Bookmarks`
+### Bottom dock
+
+`Error List` > `Output` > `Task List` > `Bookmarks`
 
 ***
 
@@ -35,7 +29,6 @@ The docks should look like this:
 These are the only extensions that should be installed:
 
 * ML.NET Model Builder 2022
-* GitHub Copilot
 * Live Share 2022
 * Single-project MSIX Packaging Tools
 * SQL Server Data Tools - Sql Editor
@@ -147,20 +140,37 @@ These are the only extensions that should be installed:
 These extensions can be installed without any configuration
 
 * Add New File (64-bit)
+* Productivity Power Tools 2022
+  * Align Assignments 2022
+    * Copy as HTML 2022
+    * Double-Click Maximize 2022
+    * Fix Mixed Tabs 2022
+    * Match Margin 2022
+    * Middle Click Scroll 2022
+    * Peek Help 2022
+    * Shrink Empty Lines 2022
+    * Solution Error Visualizer 2022
+    * Time Stamp Margin 2022
 * Color Preview
 * Dracula Official
 * Editor Enhancements
+* Editor Guidelines
+* File Icons
+* KnownMonikers Explorer 2022
 * Markdown Editor v2
+* Notebook Editor
 * One Dark Pro
 * One Monokai VS Theme
 * Pretty Doc Comments
 * Roslynator 2022
 * Show Selection Length
 * Solution colors
+* SonarLint
 * Synthwave '84 Reborn
 * Trailing Whitespace Visualizer
 * VSColorOutput64
 * XAML Styler for Visual Studio 2022
+
 
 ### Editor Guidelines
 
