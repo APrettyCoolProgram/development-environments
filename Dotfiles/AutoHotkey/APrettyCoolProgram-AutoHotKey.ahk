@@ -1,6 +1,6 @@
 ; ==============================================================================
 ; This AutoHotKey script file is A Pretty Cool Program projects.
-; b240518.
+; u240617.
 ; ==============================================================================
 
 ;-------------------------------------------------------------------------------
@@ -10,17 +10,17 @@
 ; ALT+CTRL+SHIFT+A
 ; TBD
 ; Ex. TBD
-;^+!a::
-;{
-;	// TBD
-;}
+^+!a::
+{
+	send "Trying to finish seasonal mission - don't want to fight"
+}
 
 ; ALT+CTRL+SHIFT+B
-; Inserts a simple class header with build information.
-; Ex. "//b230204.1201"
+; Inserts build information in yyMMdd.HHmm format.
+; Ex. "230204.1201"
 ^+!b::
 {
-	send FormatTime(A_Now, "yyMMdd.HHss")
+	send FormatTime(A_Now, "yyMMdd.HHmm")
 }
 
 ; ALT+CTRL+SHIFT+C
@@ -32,7 +32,7 @@
 ;}
 
 ; ALT+CTRL+SHIFT+D
-; Date in yyMMdd format.
+; Inserts the date in yyMMdd format.
 ; Ex. "230204"
 ^+!d::
 {
@@ -128,8 +128,8 @@
 ;}
 
 ; ALT+CTRL+SHIFT+P
-; Inserts a Prototype build.
-; Ex. "//Prototype b230204.1201"
+; Inserts a Prototype information in yyMMdd format.
+; Ex. "Prototype b230204"
 ^+!p::
 {
 	send "Prototype b" FormatTime(A_Now, "yyMMdd")
@@ -161,7 +161,7 @@
 ;}
 
 ; ALT+CTRL+SHIFT+T
-; Inserts a time in HHmm format.
+; Inserts the time in HHmm format.
 ; Ex. "1201"
 ^!+t::
 {
@@ -181,7 +181,7 @@
 ; Ex. TBD
 ;^+!v::
 ;{
-;	// TBD
+	send "Development b" FormatTime(A_Now, "yyMMdd.HHmm")
 ;}
 
 ; ALT+CTRL+SHIFT+W
