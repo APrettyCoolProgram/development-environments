@@ -179,10 +179,10 @@
 ; ALT+CTRL+SHIFT+V
 ; TBD
 ; Ex. TBD
-;^+!v::
-;{
+^+!v::
+{
 	send "Development b" FormatTime(A_Now, "yyMMdd.HHmm")
-;}
+}
 
 ; ALT+CTRL+SHIFT+W
 ; TBD
