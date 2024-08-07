@@ -1,6 +1,6 @@
 ; ==============================================================================
 ; This AutoHotKey script file is A Pretty Cool Program projects.
-; u240617.
+; u240715.
 ; ==============================================================================
 
 ;-------------------------------------------------------------------------------
@@ -10,10 +10,10 @@
 ; ALT+CTRL+SHIFT+A
 ; TBD
 ; Ex. TBD
-^+!a::
-{
-	send "Trying to finish seasonal mission - don't want to fight"
-}
+;^+!a::
+;{
+;	// TBD
+;}
 
 ; ALT+CTRL+SHIFT+B
 ; Inserts build information in yyMMdd.HHmm format.
@@ -26,10 +26,10 @@
 ; ALT+CTRL+SHIFT+C
 ; TBD
 ; Ex. TBD
-;^+!c::
-;{
-;	// TBD
-;}
+^+!c::
+{
+	send "// <summary>TBD</summary>"
+}
 
 ; ALT+CTRL+SHIFT+D
 ; Inserts the date in yyMMdd format.
@@ -67,9 +67,12 @@
 ; TBD
 ; Ex. TBD
 ^+!h::
-;{
-;	// TBD
-;}
+{
+	headerPlaceholder := "// uXXXXXX.XXXX_code"
+	.  "`n// uXXXXXX.XXXX_documentation"
+
+	send headerPlaceholder
+}
 
 ; ALT+CTRL+SHIFT+I
 ; TBD
